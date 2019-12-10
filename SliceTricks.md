@@ -1,3 +1,5 @@
+Copied from https://github.com/golang/go/wiki/SliceTricks
+
 Since the introduction of the ` append ` built-in, most of the functionality of the ` container/vector ` package, which was removed in Go 1, can be replicated using ` append ` and ` copy `.
 
 Here are the vector methods and their slice-manipulation analogues:
